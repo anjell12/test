@@ -6,7 +6,6 @@
                 <div class="card-header d-flex justify-content-between">
                     <a href="" class="text-decoration-none text-dark"><i class="fas fa-table me-1"></i>
                         DataTable Transaction</a>
-                    <a href="/dashboard/product/create" class="btn btn-primary text-end">Create</a>
                 </div>
                 @if (session()->has('success'))
                     <div class="alert alert-success" id="notif" role="alert">
